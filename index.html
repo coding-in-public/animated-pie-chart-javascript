@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard Circle</title>
+  <script src="index.js" defer></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Analysis Insights</h1>
+  </header>
+  <main class="grid-layout">
+    <section aria-labelledby="first" class="container grid-text--sm">
+      <h2 id="first">Love at first Site</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, accusamus? Quisquam cumque accusamus autem
+        voluptate possimus labore ex ad? Fugit sint voluptatem fugiat.</p>
+    </section>
+    <section aria-labelledby="better" class="container grid-layout">
+      <div class="flex-wrap">
+        <svg 
+        data-pie 
+        data-color="highlight" 
+        data-percent="30" 
+        data-delay="450" 
+        data-speed=800 
+        width="300" 
+        height="300"
+        viewBox="-150 -150 300 300">
+          <circle 
+            pathlength="100"
+            r="125" 
+            fill="transparent" 
+            stroke-dasharray="100" stroke-dashoffset="100"
+            stroke-width="50" 
+            />
+          <text aria-hidden="true"></text>
+        </svg>
+        <div class="grid-text">
+          <h2 data-color="highlight" id="better">30% better than nothing!</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, accusamus? Quisquam cumque accusamus
+            autem voluptate possimus labore ex ad? Fugit sint voluptatem fugiat.</p>
+        </div>
+      </div>
+      <div class="flex-wrap-reverse">
+        <div class="grid-text">
+          <h2 data-color="text">My math tells me that’s nearly 100!</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, accusamus? Quisquam cumque accusamus
+            autem voluptate possimus labore ex ad? Fugit sint voluptatem fugiat.</p>
+        </div>
+        <svg
+        data-pie
+        data-color="text"
+        data-percent="90"
+        data-delay="600"
+        data-speed=1200
+        width="300"
+        height="300"
+        viewBox="-150 -150 300 300">
+          <circle
+            r="125"
+            fill="transparent"
+            pathlength="100"
+            stroke-dasharray="100"
+            stroke-dashoffset="100"
+            stroke-width="50" 
+            />
+          <text aria-hidden="true"></text>
+        </svg>
+      </div>
+      <section aria-labelledby="last" class="flex-wrap">
+        <svg
+        data-pie
+        data-color="accent"
+        data-percent="66"
+        data-delay="1050"
+        data-speed=1800
+        width="300"
+        height="300"
+        viewBox="-150 -150 300 300">
+          <circle
+            pathlength="100"
+            r="125"
+            fill="transparent"
+            stroke-dasharray="100"
+            stroke-dashoffset="100"
+            stroke-width="50" />
+          <text aria-hidden="true"></text>
+        </svg>
+        <div class="grid-text">
+          <h2 id="last" data-color="accent">One 6 away from bad luck!</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, accusamus? Quisquam cumque accusamus
+            autem
+            voluptate possimus labore ex ad? Fugit sint voluptatem fugiat.</p>
+        </div>
+      </section>
+    </section>
+    <section aria-labelledby="believe" class="container">
+      <h2 id="believe">Don’t believe it?</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, accusamus? Quisquam cumque accusamus autem
+        voluptate possimus labore ex ad? Fugit sint voluptatem fugiat. Lorem ipsum dolor sit amet consectetur
+        adipisicing elit. Aliquid dolorum dignissimos dicta modi nostrum eius velit maxime natus officia cupiditate
+        facilis, itaque eos quisquam consectetur eaque ad fugiat. Incidunt, facilis.</p>
+    </section>
+  </main>
+</body>
+</html>
