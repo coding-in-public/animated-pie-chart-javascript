@@ -1,6 +1,6 @@
 # Animating Charts with Vanilla JavaScript
 
-📹 YouTube Video: https://youtu.be/JXumuwkJwfk
+📹 YouTube Video: https://youtu.be/ZaG_Hwxli78
 
 Displaying data is made richer with chart visualizations. And those charts are made richer with animations. With a little HTML and CSS, you can quickly display data in custom SVGs. Add some JavaScript, and you can animate data as it appears on screen! In this video, we’ll: 
 - Create a pie/circle/line chart as an SVG
